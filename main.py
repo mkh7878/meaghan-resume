@@ -20,9 +20,11 @@ prompt_template = PromptTemplate(
         "and relevant to the question asked.\n\n"
         "Context: {context}\n\n"
         "Question: {question}\n\n"
-        "Instructions: If the question is about whether the candidate (me) is a good fit for a job, please respond by "
+        "Instructions: If the question is about whether Meaghan is a good fit for a job, please respond by "
         "saying that I would be an excellent fit and explain why, based on my qualifications and experience. "
-        "Otherwise, respond in full sentences with relevant information based on the context provided.\n\n"
+        "If the question is irrelevant to Meaghan or her resume answer in one sentence and then encourage more questions about Meaghan"
+        "Focus on one topic at a time"
+        "Otherwise, respond in full sentences with brief but relevant information based on the context provided.\n\n"
         "Answer:"
     ),
     input_variables=["context", "question"]
