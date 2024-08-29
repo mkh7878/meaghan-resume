@@ -49,13 +49,6 @@
             border-radius: 5px;
             cursor: pointer;
         }
-
-        #chat-image {
-    width: 100px; /* Adjust the size as needed */
-    height: 100px; /* Adjust the size as needed */
-    margin-left: 10px; /* Spacing between the chat and image */
-    /* Other styles for your chat image */
-}
     </style>
 </head>
 <body>
@@ -67,7 +60,6 @@
             <input type="text" id="user-input" placeholder="Ask a question about Meaghan's professional experience..." required>
             <button type="submit">Send</button>
         </form>
-        <img id="chat-image" src="cloud_sitting.png" alt="Chat Image">
     </div>
 
     <script>
@@ -101,33 +93,6 @@
             messages.appendChild(message);
             messages.scrollTop = messages.scrollHeight; // Scroll to bottom
         }
-
-        // script.js
-document.addEventListener('DOMContentLoaded', () => {
-    const userInput = document.getElementById('user-input');
-    const chatImage = document.getElementById('chat-image');
-    
-    // Image paths
-    const typingImage = 'cloud_bark.png';
-    const defaultImage = 'cloud_sitting.png';
-    
-    let typingTimer;
-    const typingInterval = 1000; // Time in milliseconds
-
-    userInput.addEventListener('input', () => {
-        // Change image to typingImage when typing starts
-        chatImage.src = typingImage;
-        
-        // Clear the previous timer if any
-        clearTimeout(typingTimer);
-        
-        // Set a new timer to revert the image after typing stops
-        typingTimer = setTimeout(() => {
-            chatImage.src = defaultImage;
-        }, typingInterval);
-    });
-});
-
     </script>
 </body>
 </html>
