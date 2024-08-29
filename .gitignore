@@ -8,4 +8,4 @@ __pycache__/
 # Exclude macOS-specific files
 .DS_Store
 
-main_ignored.py
+.env
