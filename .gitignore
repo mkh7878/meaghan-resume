@@ -8,5 +8,4 @@ __pycache__/
 # Exclude macOS-specific files
 .DS_Store
 
-# Exclude GitHub Pages templates if not needed
-templates/
+main_ignored.py
