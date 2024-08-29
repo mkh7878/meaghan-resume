@@ -3,8 +3,12 @@ from langchain_community.llms import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 import os #for api key access in heroku
+from dotenv import load_dotenv 
 
 app = Flask(__name__)
+
+# Load environment variables from the .env file
+load_dotenv()
 
 # Access the API key from environment variables
 api_key = os.getenv('OPENAI_API_KEY')
@@ -53,7 +57,7 @@ def ask():
 
     # Generate the answer using LangChain
     result = llm_chain.run(context=resume_text, question=question)
-    return render_template('result.html', result={'answer': result}, question=question)
+    return jsonify({'answer': result})
 
 if __name__ == '__main__':
     app.run(debug=True)

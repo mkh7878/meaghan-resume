@@ -3,14 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meaghan Horak LLM Resume</title>
+    <title>Chatbot Interface</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        #chatbox {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .message {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .user-message {
+            background-color: #d1e7dd;
+            text-align: right;
+        }
+        .bot-message {
+            background-color: #f1f1f1;
+        }
+        #input-form {
+            display: flex;
+            margin-top: 20px;
+        }
+        #input-form input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        #input-form button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <h1>Ask a Question about Meaghan's Qualifications or Professional Accomplishments</h1>
-    <form action="/ask" method="post">
-        <label for="question">Your Question:</label><br>
-        <input type="text" id="question" name="question" required><br><br>
-        <input type="submit" value="Submit">
-    </form>
+    <div id="chatbox">
+        <div id="messages">
+            <!-- Messages will appear here -->
+        </div>
+        <form id="input-form">
+            <input type="text" id="user-input" placeholder="Ask a question..." required>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <script>
+        const form = document.getElementById('input-form');
+        const input = document.getElementById('user-input');
+        const messages = document.getElementById('messages');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const userMessage = input.value;
+            appendMessage(userMessage, 'user-message');
+            input.value = '';
+
+            const response = await fetch('/ask', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: new URLSearchParams({ question: userMessage })
+            });
+
+            const data = await response.json();
+            appendMessage(data.answer, 'bot-message');
+        });
+
+        function appendMessage(text, className) {
+            const message = document.createElement('div');
+            message.className = `message ${className}`;
+            message.textContent = text;
+            messages.appendChild(message);
+            messages.scrollTop = messages.scrollHeight; // Scroll to bottom
+        }
+    </script>
 </body>
 </html>
