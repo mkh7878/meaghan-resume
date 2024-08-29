@@ -2,6 +2,7 @@ from flask import Flask, request, render_template, jsonify
 from langchain_community.llms import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
+import os #for api key access in heroku
 
 app = Flask(__name__)
 
