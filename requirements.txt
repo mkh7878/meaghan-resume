@@ -1,0 +1,5 @@
+Flask==2.3.2
+langchain-community==0.2.0
+langchain==1.0.0
+openai==0.28.0  # Using OpenAI’s API
+gunicorn==20.1.0  # Heroku requires a WSGI server like Gunicorn to serve your app

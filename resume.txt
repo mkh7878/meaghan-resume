@@ -1,0 +1,95 @@
+MEAGHAN HORAK
+Meaghan lives in San Diego, CA.
+413-544-1625 | meaghan.horak@gmail.com | Github username: mkh7878
+PROFESSIONAL EXPERIENCE
+Head of Visuals and Technology
+Off Hand Co | September 2022 - May 2024
+* Production Management: Oversaw the production of short films, managing scheduling, budgeting, and pre-production using Google Sheets, Docs, and Calendar.
+* Team Leadership: Managed Technical and Creative teams, fostering collaboration, inclusivity, and innovation.
+* Merchandise Design & Sales: Designed and sold branded merchandise, increasing revenue and strengthening brand recognition.
+* Print Media Design: Created posters, packaging, labels, brochures, magazines, and books.
+* Technical Expertise: Deployed and maintained advanced camera and lighting equipment, integrating cutting-edge tools to enhance production quality.
+* Budget Management: Optimized resource allocation through detailed financial tracking and analysis of production budgets.
+* Data Analysis & Marketing: Sourced and analyzed customer data to develop targeted marketing strategies.
+* Social Media Management: Maintained social media presence, promoted, and hosted live virtual events.
+* Film Editing & Composition: Edited films in Premiere Pro and composed scores in Logic Pro.
+* Crisis Management: Demonstrated perseverance and guided teams through high-pressure challenges to achieve successful outcomes.
+Digital Experience Specialist
+Richline Digital | September 2019 - September 2022
+* Cross-Functional Communication: Enhanced project cohesion by fostering communication between creative and engineering teams.
+* Web Development: Implemented Bootstrap templates using HTML and CSS, reducing website maintenance time by 40%.
+* CRM Transition: Led the CRM transition from Salesforce to Zendesk, achieving a 95% positive customer rating and training new employees.
+* Agile Methodologies: Applied SCRUM and Agile methodologies to drive iterative and collaborative software development processes.
+* Brand Messaging: Strengthened user engagement by incorporating customer narratives into brand messaging and web experiences.
+* SEO Optimization: Rebuilt homepage and key landing pages, focusing on accessibility, responsiveness, and SEO optimization.
+Jewelry Consultant
+Gemvara | September 2017 - September 2019
+* Knowledge Base Design: Designed and implemented a self-serve knowledge base, reducing ticket volume by 20%.
+* Technical Support: Assisted customers with technical troubleshooting via email, phone, and live screen-sharing sessions, maintaining a 98% customer satisfaction score.
+* Issue Escalation: Proactively identified and escalated complex technical issues, delivering timely solutions in collaboration with cross-functional teams.
+* Customer Feedback Analysis: Monitored and analyzed customer feedback, implementing solutions to enhance product functionality.
+* Team Mentorship: Mentored and trained new team members on best practices in customer support, contributing to a cohesive and high-performing support team.
+Freelance Designer & Developer
+Self-Employed | Various Projects
+* Design Implementation: Provided freelance design and implementation services across industries including eCommerce, fashion, and engineering.
+* Creative Coding: Utilized generative deep learning models for creative coding applications, accelerating the analysis, design, coding, and debugging phases.
+* User-Centered Design: Practiced user-centered design principles to ensure intuitive and functional designs.
+* UI/UX Design: Deployed UI tools such as navigation menus, search boxes, tabs, and widgets across digital assets.
+* Prototyping: Designed website and product wireframes, visuals, storyboards, site maps, and prototypes.
+* Design Standards: Created and adhered to typography and graphic design style standards.
+________________
+
+
+PROJECTS
+Synesthetic Composition
+Masters Dissertation Project | 2023
+* Overview: Developed a Python software application that analyzes live music and generates corresponding visuals in real-time.
+* Responsibilities: Conceptualized, coded, and tested the application, ensuring smooth integration of visual and audio components.
+* Tools: Kivy, FluidSynth, Matplotlib, Mido, Numpy, TensorFlow
+EndGame
+Surrealist Video Game Prototype | 2023
+* Overview: Created a prototype of a surrealist video game using Unreal Engine, incorporating alternative control systems integrated with the game's world.
+* Responsibilities: Managed world-building, graphic and audio design, 3D modeling, 3D printing, voice acting, and engineering.
+* Tools: 3D Printing, AI Diffusion Models, Blender, Blueprints, Unreal Engine
+Pop-Up Smash Pro
+Interactive Large-Scale Video Game | 2023
+* Overview: Led a cross-team collaborative effort to develop an interactive video game for public use, showcased at the Portals of Perception showcase in London.
+* Responsibilities: Oversaw design, implementation, physical construction, user testing, and time management of the project.
+* Tools: Processing, C++, Robotics, User Interaction, User Testing
+
+
+SKILLS
+Languages: C++, CSS, HTML, JavaScript, TypeScript, Python, SQL
+Frameworks/Libraries: React, Angular, Bootstrap, TensorFlow, Keras, PyTorch
+Design Tools: Adobe XD, Figma, Sketch, Photoshop, Illustrator, InDesign, Premiere Pro
+Machine Learning Algorithms: Supervised Learning, Unsupervised Learning, Reinforcement Learning
+Prototyping and Wireframing: Adobe XD, Figma, Sketch, Miro
+Web and Email Marketing: SEO Optimization, Email Marketing, Web Design, Wix, Google Suite
+SOFT SKILLS
+Adaptability, Attention to Detail, Collaboration, Communication, Creative Thinking
+
+
+EDUCATION
+Masters of Science (MSc) in Creative Computing
+UAL Creative Computing Institute | 2023
+* First Class Honors, GPA 4.0
+Bachelor of Arts (BA) in Fashion & Graphic Design
+Massachusetts College of Art & Design | 2017
+Certifications:
+* Harvard Extension: Intensive Introduction to Computer Science
+* GIA: Jewelry Essentials
+* Mayor's Office, Boston, MA: Fine Artist Certification
+
+
+About Meaghan:
+Meaghan is a versatile designer who bridges the gap between creativity and technical implementation, excelling in both design and coding. With a strong foundation in user-centered design and a passion for innovation, she thrives at the intersection of art and technology. Meaghan has a proven track record of leading cross-functional teams to deliver exceptional digital experiences, leveraging her expertise in design thinking, agile methodologies, and emerging technologies.
+
+Having studied in Boston, MA, and London, UK, Meaghan has developed a global perspective that informs her work, enabling her to craft solutions that resonate with diverse audiences. She currently resides in San Diego, CA, where she continues to explore the synergy between aesthetics and functionality.
+
+Meaghan is also deeply committed to continuous learning and staying at the forefront of industry trends, which is reflected in her ongoing exploration of machine learning, creative coding, and experimental design practices. Her work has been showcased at industry events and has contributed to advancing the fields of interactive media and digital design.
+
+Outside of work:
+Outside of her professional life, Meaghan enjoys playing music, exploring national parks, and painting, which fuel her creativity and inspire her work. 
+
+
+​

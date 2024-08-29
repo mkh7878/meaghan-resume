@@ -1,0 +1,12 @@
+# Exclude Python virtual environment
+venv/
+
+# Exclude Python bytecode files
+*.pyc
+__pycache__/
+
+# Exclude macOS-specific files
+.DS_Store
+
+# Exclude GitHub Pages templates if not needed
+templates/
