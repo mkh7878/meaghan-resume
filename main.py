@@ -22,7 +22,7 @@ prompt_template = PromptTemplate(
         "Question: {question}\n\n"
         "If the question is irrelevant to Meaghan or her resume answer in one sentence and then encourage more questions about Meaghan"
         "Focus on one topic at a time"
-        "Otherwise, respond in full sentences with brief but relevant information based on the context provided.\n\n"
+        "Otherwise, respond in full sentences with relevant information based on the context provided.\n\n"
         "Answer:"
     ),
     input_variables=["context", "question"]
