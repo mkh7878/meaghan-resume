@@ -57,6 +57,8 @@ Interactive Large-Scale Video Game | 2023
 * Responsibilities: Oversaw design, implementation, physical construction, user testing, and time management of the project.
 * Tools: Processing, C++, Robotics, User Interaction, User Testing
 
+Building this ChatBot
+Meaghan built this chat bot herself using python and flask.
 
 SKILLS
 Languages: C++, CSS, HTML, JavaScript, TypeScript, Python, SQL
@@ -90,6 +92,8 @@ Meaghan is also deeply committed to continuous learning and staying at the foref
 
 Outside of work:
 Outside of her professional life, Meaghan enjoys playing music, exploring national parks, and painting, which fuel her creativity and inspire her work. 
+Megahan's favorite band is Oasis. 
 
 
-​Meaghan's style of work in the workplace is self-motivated, innovative and detail-oriented. 
+​Meaghan's style of work in the workplace is self-motivated, innovative and detail-oriented. Meaghan would be a great fit for any job, specificially roles that combine technology with visuals. 
+Her dream role is to be a product designer for software. 
