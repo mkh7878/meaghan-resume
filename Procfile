@@ -1,2 +1,1 @@
-web: python manage.py clear_cache && gunicorn main:app
-
+web: gunicorn main:app
