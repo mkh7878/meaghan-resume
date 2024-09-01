@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meaghan's Resume Chat Bot</title>
+    <title>Chatbot Interface</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,24 +12,48 @@
         }
         #chatbox {
             width: 100%;
-            max-width: 600px;
+            max-width: 400px;
+            height: 100%;
             margin: 0 auto;
             background: #fff;
             padding: 20px;
             border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            flex-direction: column;
+        }
+        .banner {
+            color: black;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 20px; /* Space between banner and messages */
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #messages {
+            flex-grow: 1; /* Make the messages section take up remaining space */
+            overflow-y: auto; /* Allow scrolling if messages overflow */
+            height: 350px;
+            margin-bottom: 10px; /* Optional: Add some space between messages and the input form */
         }
         .message {
             margin: 10px 0;
             padding: 10px;
             border-radius: 5px;
+            max-width: 70%;
+            word-wrap: break-word;
         }
         .user-message {
-            background-color: #d1e7dd;
-            text-align: right;
+            background-color: #D1D1D6;
+            align-self: flex-start; /* Align the user's messages to the left */
+            text-align: left; /* Align text to the left */
+            margin-right: auto; /* Push the message to the left */
         }
         .bot-message {
-            background-color: #f1f1f1;
+            background-color: #F9D9D9;
+            align-self: flex-end; /* Align the bot's messages to the right */
+            text-align: left; /* Align text to the right */
+            margin-left: auto; /* Push the message to the right */
         }
         #input-form {
             display: flex;
@@ -38,26 +62,45 @@
         #input-form input {
             flex: 1;
             padding: 10px;
-            border: 1px solid #ccc;
+            border: 1.5px solid #D9D9D9;
             border-radius: 5px;
+            background-color: #F5F5F5;
+            max-width: 70%;
+        }
+        #input-form input:focus {
+            border: 2.5px solid #69BCC0;
+            outline: none;
         }
         #input-form button {
             padding: 10px 20px;
-            border: none;
-            background-color: #007bff;
+            border: 1.5px solid #D9D9D9;
+            background-color: #F9D9D9;
             color: #fff;
             border-radius: 5px;
             cursor: pointer;
+           margin-left: 20px;
         }
+        #input-form button:hover {
+            background-color: #69BCC0;
+        }
+
     </style>
 </head>
 <body>
     <div id="chatbox">
+        <!-- Banner section -->
+        <div class="banner">
+            Questions about Meaghan?
+        </div>
+
         <div id="messages">
+            <div class="message bot-message">
+                I am an AI-powered chatbot trained on Meaghan’s resume! Ask any questions you have about her previous roles, skills or professional experience.
+            </div>
             <!-- Messages will appear here -->
         </div>
         <form id="input-form">
-            <input type="text" id="user-input" placeholder="Ask a question about Meaghan's professional experience..." required>
+            <input type="text" id="user-input" placeholder="Type your questions here..." required>
             <button type="submit">Send</button>
         </form>
     </div>
